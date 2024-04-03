@@ -1,8 +1,12 @@
+#taking user's input
 num1 = int(input('Enter first number:'))
 num2 = int(input('Enter second number:'))
 
-product = num1 * num2
+#creating product variable
+product = num1*num2
+
+#applying condition and displaying results
 if product <= 1000:
-    print(product)
+    print (product)
 else:
-    print(num1 + num2)
+    print (num1 + num2)
